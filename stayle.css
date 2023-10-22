@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Sometype+Mono:wght@400;600;700&display=swap');
+
+.ff {
+    font-family: 'Sometype Mono', monospace;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Sometype Mono', monospace;;
+}
+
+.logo_cv {
+    color: #9400D3;
+    font-size: 30px;
+    padding-left:200px
+    
+}
+
+.header_cv {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 12px 10px;
+    background-color: #1e2326;
+    align-items: center;
+}
+
+.header_cv nav ul {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+}
+
+.header_cv nav ul li a {
+    text-align: none;
+    color: #fff;
+    margin: 0 15px;
+    padding: 3px;
+    transition: .5s;
+    text-decoration: none;
+    border-radius: 1rem;
+}
+
+.header_cv nav ul li a:hover{
+    color: #9400D3;
+    border: 2px solid #9400D3;
+}
+
+
+.presentacion {
+    background-color: #1e2326 ;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+
+.contenedor__img img {
+    border-radius: 1rem;
+}
+
+.contenedor__presentacion{
+    max-width: 800px;
+    display: flex;
+    gap: 2rem;
+
+}
+
+
+.contenedor__info{
+    padding-top: 2rem;
+}
+
+.contenedor__info div:nth-child(1) h1 {
+    display: grid;
+    grid-column:auto;
+    color: white;
+}
+
+.parrafo {
+    max-width: 350px;
+    text-align: center;
+    color: #fff;
+}
+
+.contenedor__info div:nth-child(1) h1 span {
+    font-size: 17px;
+    color: #9400D3;
+}
+
+
+.contenedor__info__academico{
+    background-color: #1e2326ee;
+    padding: 2rem;
+}
+
+.formacion_academica {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.formacion_academica h2 {
+    padding-inline-start: 3rem;
+    color: #9400D3;
+}
+
+.instituciones {
+    display: grid;
+    grid-column: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.instituciones div:nth-child(1){
+    background-color: aqua;
+    
+}
+
+
