@@ -23,7 +23,7 @@ body {
 
 .header_cv {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     padding: 12px 10px;
     background-color: #1e2326;
     align-items: center;
