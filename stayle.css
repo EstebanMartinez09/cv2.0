@@ -22,6 +22,8 @@ body {
 }
 
 .header_cv {
+    width: 100%;
+    position: fixed;
     display: flex;
     justify-content: space-between;
     padding: 12px 10px;
@@ -47,7 +49,7 @@ body {
 
 .header_cv nav ul li a:hover{
     color: #9400D3;
-    border: 2px solid #9400D3;
+    outline: 2px solid #9400D3;
 }
 
 
@@ -94,33 +96,85 @@ body {
 }
 
 
+
+
 .contenedor__info__academico{
     background-color: #1e2326ee;
     padding: 2rem;
+    height: 600px;
 }
 
 .formacion_academica {
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 2rem;
 }
 
 .formacion_academica h2 {
-    padding-inline-start: 3rem;
+    align-self: flex-start;
     color: #9400D3;
 }
 
 .instituciones {
-    display: grid;
-    grid-column: 1fr 1fr;
-    align-items: center;
-    justify-content: center;
-    color: #fff;
-}
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
 
-.instituciones div:nth-child(1){
-    background-color: aqua;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem;
+
+    color: #fff;
     
 }
+
+.institucion {
+    width: 550px;
+    padding:1rem;
+    border: 1px solid white;
+    border-radius: 1rem;
+
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.contenedor_experiencia_laboral {
+    background: #1e2326ee;
+    color: #fff;
+    padding: 2rem;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor_experiencia_laboral h2 {
+    align-self: flex-start;
+    color: #9400D3;
+}
+
+
+.empresas{
+    display: flex;
+    max-width: 1200px;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.empresa{
+    border: 1px solid #fff;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+
+
 
 

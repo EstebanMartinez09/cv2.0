@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -7,6 +7,7 @@
     <meta name="description" content="CV de Esteban Martinez estudiante de ciencias de la computacion y desarrollo web">
     <title>Esteban Martinez</title>
     <link rel="stylesheet" href="./stayle.css">
+    <link rel="icon" href="./favicon-16x16.png">
 </head>
 
 <body>
@@ -28,12 +29,12 @@
 
     <main>
         <!--Primera sección-->
-        <section class="presentacion">
+        <section class="presentacion" id="perfil_profecional">
             <div class="contenedor__presentacion">
                 <div class="contenedor__img">
                     <img src="./imagenes/IMG-20230504-WA0023 (1) (1).png" alt="" width="250px">
                 </div>
-                <div class="contenedor__info" id="perfil_profecional">
+                <div class="contenedor__info" >
                     <div>
                         <h1><span>!Hola soy</span><strong>Camilo Esteban Martinez Marin</strong></h1>
                     </div>
@@ -48,7 +49,7 @@
         <!--Segunda sección academica-->
 
         <section class="contenedor__info__academico">
-            <article class="formacion_academica" id="formacion_academica">
+            <div class="formacion_academica" id="formacion_academica">
 
                 <h2>Formacion Academica</h2>
 
@@ -60,15 +61,23 @@
 
                         <div class="informacion">
                             <p class="titulo__optenido">
+                                <span>Titulo:</span>
+                                <br>
                                 Técnico Laboral en Asistente Social y Comunitario
                             </p>
                             <p class="nombre__institucion">
+                                <span>institución:</span>
+                                <br>
                                 Policía Nacional Dirección Nacional de Escuelas
                             </p>
                             <p class="lugar__formacion">
+                                <span>Ciudad:</span>
+                                <br>
                                 Bogotá D. C.
                             </p>
                             <p class="contacto">
+                                <span>Telefono:</span>
+                                <br>
                                 3124088334
                             </p>
                         </div>
@@ -80,12 +89,18 @@
 
                         <div class="informacion">
                             <p class="titulo__optenido">
+                                <span>Titulo:</span>
+                                <br>
                                 Secundaria
                             </p>
                             <p class="nombre__institucion">
+                                <span>institución:</span>
+                                <br>
                                 Centro Educativo Johann Kepler
                             </p>
                             <p class="lugar__formacion">
+                                <span>Ciudad:</span>
+                                <br>
                                 Bogotá D. C.
                             </p>
 
@@ -99,26 +114,34 @@
 
                         <div class="informacion">
                             <p class="titulo__optenido">
+                                <span>Titulo:</span>
+                                <br>
                                 Primaria
                             </p>
                             <p class="nombre__institucion">
+                                <span>institución:</span>
+                                <br>
                                 Colegio la Granja
                             </p>
                             <p class="lugar__formacion">
+                                <span>Ciudad:</span>
+                                <br>
                                 Zipaquirá Cundinamarca
                             </p>
                         </div>
+                    </div>
+                    
                 </div>
 
-            </article>
+            </div>
         </section>
         <!-- Tercera sección experiencia -->
 
 
-        <section id="experiencia_laboral">
+        <section class="contenedor_experiencia_laboral" id="experiencia_laboral">
             <h2>Experiencia Laboral</h2>
             <div class="empresas">
-                <div>
+                <div class="empresa">
                     <div>Empresa: <p>WebHelp</p>
                     </div>
                     <div>Cargo: <p>Asesor de operaciones</p>
@@ -129,7 +152,7 @@
                     </div>
                 </div>
                 <br>
-                <div>
+                <div class="empresa">
                     <div>Empresa: <p>Synerjoy BPO</p>
                     </div>
                     <div>Cargo: <p>Asesor de operaciones</p>
@@ -140,7 +163,7 @@
                     </div>
                 </div>
                 <br>
-                <div>
+                <div class="empresa">
                     <div>Empresa: <p>Atlas Seguridad - Belcorp</p>
                     </div>
                     <div>Cargo: <p>Guarda</p>
